@@ -15,6 +15,18 @@
 		72DE57591CB4068900C27FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DE57571CB4068900C27FB9 /* LaunchScreen.storyboard */; };
 		72DE57641CB4068A00C27FB9 /* _2_CustomFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DE57631CB4068A00C27FB9 /* _2_CustomFontTests.swift */; };
 		72DE576F1CB4068A00C27FB9 /* _2_CustomFontUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DE576E1CB4068A00C27FB9 /* _2_CustomFontUITests.swift */; };
+		72DE57801CB4074200C27FB9 /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72DE577D1CB4074200C27FB9 /* MFJinHei_Noncommercial-Regular.ttf */; };
+		72DE57811CB4074200C27FB9 /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72DE577D1CB4074200C27FB9 /* MFJinHei_Noncommercial-Regular.ttf */; };
+		72DE57821CB4074200C27FB9 /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72DE577D1CB4074200C27FB9 /* MFJinHei_Noncommercial-Regular.ttf */; };
+		72DE57831CB4074200C27FB9 /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72DE577E1CB4074200C27FB9 /* MFTongXin_Noncommercial-Regular.ttf */; };
+		72DE57841CB4074200C27FB9 /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72DE577E1CB4074200C27FB9 /* MFTongXin_Noncommercial-Regular.ttf */; };
+		72DE57851CB4074200C27FB9 /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72DE577E1CB4074200C27FB9 /* MFTongXin_Noncommercial-Regular.ttf */; };
+		72DE57861CB4074200C27FB9 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72DE577F1CB4074200C27FB9 /* MFZhiHei_Noncommercial-Regular.ttf */; };
+		72DE57871CB4074200C27FB9 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72DE577F1CB4074200C27FB9 /* MFZhiHei_Noncommercial-Regular.ttf */; };
+		72DE57881CB4074200C27FB9 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72DE577F1CB4074200C27FB9 /* MFZhiHei_Noncommercial-Regular.ttf */; };
+		72DE578A1CB4075000C27FB9 /* Gaspar Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72DE57891CB4075000C27FB9 /* Gaspar Regular.otf */; };
+		72DE578B1CB4075000C27FB9 /* Gaspar Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72DE57891CB4075000C27FB9 /* Gaspar Regular.otf */; };
+		72DE578C1CB4075000C27FB9 /* Gaspar Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 72DE57891CB4075000C27FB9 /* Gaspar Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,10 @@
 		72DE576A1CB4068A00C27FB9 /* 02-CustomFontUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-CustomFontUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DE576E1CB4068A00C27FB9 /* _2_CustomFontUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _2_CustomFontUITests.swift; sourceTree = "<group>"; };
 		72DE57701CB4068A00C27FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DE577D1CB4074200C27FB9 /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MFJinHei_Noncommercial-Regular.ttf"; path = "02-CustomFont/MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		72DE577E1CB4074200C27FB9 /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MFTongXin_Noncommercial-Regular.ttf"; path = "02-CustomFont/MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		72DE577F1CB4074200C27FB9 /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MFZhiHei_Noncommercial-Regular.ttf"; path = "02-CustomFont/MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		72DE57891CB4075000C27FB9 /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gaspar Regular.otf"; path = "02-CustomFont/Gaspar Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,7 @@
 		72DE574A1CB4068900C27FB9 /* 02-CustomFont */ = {
 			isa = PBXGroup;
 			children = (
+				72DE577C1CB4070F00C27FB9 /* Fonts */,
 				72DE574B1CB4068900C27FB9 /* AppDelegate.swift */,
 				72DE574D1CB4068900C27FB9 /* ViewController.swift */,
 				72DE574F1CB4068900C27FB9 /* Main.storyboard */,
@@ -126,6 +143,18 @@
 				72DE57701CB4068A00C27FB9 /* Info.plist */,
 			);
 			path = "02-CustomFontUITests";
+			sourceTree = "<group>";
+		};
+		72DE577C1CB4070F00C27FB9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				72DE57891CB4075000C27FB9 /* Gaspar Regular.otf */,
+				72DE577D1CB4074200C27FB9 /* MFJinHei_Noncommercial-Regular.ttf */,
+				72DE577E1CB4074200C27FB9 /* MFTongXin_Noncommercial-Regular.ttf */,
+				72DE577F1CB4074200C27FB9 /* MFZhiHei_Noncommercial-Regular.ttf */,
+			);
+			name = Fonts;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +264,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72DE578A1CB4075000C27FB9 /* Gaspar Regular.otf in Resources */,
+				72DE57831CB4074200C27FB9 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
+				72DE57861CB4074200C27FB9 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
 				72DE57591CB4068900C27FB9 /* LaunchScreen.storyboard in Resources */,
+				72DE57801CB4074200C27FB9 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
 				72DE57561CB4068900C27FB9 /* Assets.xcassets in Resources */,
 				72DE57511CB4068900C27FB9 /* Main.storyboard in Resources */,
 			);
@@ -245,6 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72DE57841CB4074200C27FB9 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
+				72DE578B1CB4075000C27FB9 /* Gaspar Regular.otf in Resources */,
+				72DE57871CB4074200C27FB9 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
+				72DE57811CB4074200C27FB9 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +289,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72DE57851CB4074200C27FB9 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
+				72DE578C1CB4075000C27FB9 /* Gaspar Regular.otf in Resources */,
+				72DE57881CB4074200C27FB9 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
+				72DE57821CB4074200C27FB9 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
